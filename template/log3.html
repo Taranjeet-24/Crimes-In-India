@@ -1,0 +1,84 @@
+{% load static %}
+<link href='{%static "css/bootstrap.min.css" %}' rel='stylesheet'>
+<link href='{%static "css/icofont.css" %}' rel='stylesheet'>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#" style='font-size:25px;'><b>&nbsp; CRIMES IN INDIA &nbsp;</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/temp">Home <span class="sr-only">(current)</span>
+          <i class="icofont icofont-home text-white icofont-2x"></i></a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+  <div class=''style='padding-bottom:10em;' >
+    <h4 class="text-justify text-center pt-4 "style='margin-top:6em;'>AREAWISE PREDICTION OF CRIME AGAINST WOMEN</h4>
+    <hr style='width:100px;border-width:2px;'class='bg-warning'>
+  
+
+
+  <form method="post" action="{% url 'userlogin3' %}" class="text-justify text-center pt-6" >
+    <label for ="areaname1">Enter Area name:</label>
+    <select name="areaname1" required>
+        <option value="">SELECT THE AREA</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+    
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Assam">Assam</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Chandigarh">Chandigarh</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Himachal Pradesh">Himachal Pradesh</option>
+        <option value="Jammu & Kashmir">Jammu & Kashmir</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Meghalaya">Meghalaya</option>
+        <option value="Nagaland">Nagaland</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="West Bengal">West Bengal</option>
+    
+    
+    
+    
+</select>&nbsp;
+{% csrf_token %}
+
+<input type="submit" name="submit" value="Submit" class="btn btn-primary">
+</div>
+</form>
+
+<div class="container-fluid bg-dark text-white pt-40 mt-2">
+  <div class="container">
+<div class='row'>
+<div class='col-md-6'>
+  <h5>Overview</h5>
+  <p style='font-family:century gothic'>India has witnessed rapid socio-economic changes since independence. Various institutions 
+    have been created and recreated due to structural and cultural changes over the past six decades. 
+          India resulting in increased Crimes. </p>
+</div>
+<div class='col-md-3'>
+  
+</div>
+<div class='col-md-3 text-center'>
+  <h5>Dataset available at</h5>
+  <a href='https://www.kaggle.com/rajanand/crime-in-india' style="color:white">
+  <i class='icofont icofont-web  text-white'style='font-size:24px;'></i> &nbsp;<p style='font-family:century gothic'>kaggle.com</p></a>
+  &nbsp;&nbsp;
+  
+</div>
+</div>
+</div>
+</div>
+

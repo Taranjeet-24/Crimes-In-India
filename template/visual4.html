@@ -1,0 +1,94 @@
+{% load static %}
+<html>
+    <head>
+        <title>page1</title>
+        <link href="{%static "css/bootstrap.min.css" %}" rel='stylesheet'>
+        <link href="{%static "css/icofont.css" %}" rel='stylesheet'>
+    </head>
+    <body> 
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">&nbsp;ABOUT THE DATASETS &nbsp; </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link active" href="/temp">
+                                <span class="sr-only">(current)</span><i class="icofont icofont-home text-white icofont-2x"></i> </a>
+                        
+                      </div>
+                    </div>
+                  </nav>
+            
+        <div class="container pt-4">
+                <h4 class='text-justify text-center'>CRIME AGAINST CHILDREN</h4><hr style='width:100px;border-width:2px;'class='bg-warning'>
+                   
+            <div class='row'>
+                
+                <div class='col-md-12 '>
+                        
+                        <p style='font-family:century gothic;box-shadow:0px 0px 10px 0px lightgray;
+                        line-height:2;word-spacing:2;'class='pt-4 p-4'>The dataset comprises of the 
+                            information about the cases of crime against children that happened from the 
+                            year 2001 to 2012 
+                            the data is distributed statewise and gives year wise trend
+                             about the changes in various aspects about the cases 
+                            registered.<br/>
+                    
+                        <b>TOTAL NO OF ROWS:9016</b><br/>
+                       <b>TOTAL INSTANCES:14</b> </p>
+                </div>
+                </div>
+    
+        
+     
+    
+            <h5 class="text-center pb-4 pt-3"><b>The columns are enlisted as under:</b></h5>
+            <div class="container-fluid">
+            <div class='row'>
+                    <div class='col-md-5 pb-4'>
+                            <img src={%static "images/images.jpeg" %} width="100%" height="350px">
+                        </div>
+                        <div class='col-md-1'></div>
+                        <div class="col-md-6">
+                            <div class='row'>
+                            <div class="col-md-6 pb-4">
+                                <ul class="list-group"> 
+                                    <li >State/UT
+                                    </li>
+                                    <li >District
+                                    </li>
+                                    <li >Year
+                                    </li>
+                                    <li >Murder
+                                    </li>
+                                    <li >rape
+                                    </li>
+                                    <li >Foeticide
+                                    </li>
+                                    <li >Abetment of suicide
+                                    </li>
+                                    <li >Exposure and abandonment
+                                    </li>
+                                    <li >Procuration of minor girls
+                                    </li>
+                                    <li >Buying of girls for prostitution
+                                    </li>
+                                        <li >Selling of girls for prostitution
+                                            </li>
+                                    <li >Prohibition of child marriage act
+                                    </li>
+                                    <li >Other Crimes
+                                    </li>
+                                    <li >Total
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        </div>   
+                    </div>
+                        </div>
+                            
+                         </body>
+                    </html>

@@ -1,0 +1,117 @@
+{% load static %}
+<html>
+    <head>
+        <title>page1</title>
+        <link href="{%static "css/bootstrap.min.css" %}" rel='stylesheet'>
+        <link href="{%static "css/icofont.css" %}" rel='stylesheet'>
+    </head>
+    <body> 
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">&nbsp;ABOUT THE DATASETS &nbsp; </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link active" href="/temp">
+                                <span class="sr-only">(current)</span><i class="icofont icofont-home text-white icofont-2x"></i> </a>
+                        
+                      </div>
+                    </div>
+                  </nav>
+            
+        <div class="container-fluid pt-4">
+            <div class='row'>
+                <div class='col-md-12 '>
+                        
+                    <h4 class='text-justify text-center'>SERIOUS FRAUDS</h4><hr style='width:100px;border-width:2px;'class='bg-warning'>
+                        <p style='font-family:century gothic;box-shadow:0px 0px 10px 0px lightgray;line-height:2;word-spacing:2;'class='pt-4 p-4'>
+                            The dataset comprises of the inforamation about the cases of fraud reported by people from the year 2001 to 2010 
+                            the data is distributed statewise and gives year wise trend about the frauds in Property  cases 
+                            registered.<br/>
+                    
+                        <b>TOTAL NO OF ROWS:449</b><br/>
+                       <b>TOTAL INSTANCES:9</b> </p>
+                </div>
+                </div>
+    
+        
+     
+    
+                <h5 class="text-center pb-4 pt-3"><b>The columns are enlisted as under:</b></h5>
+                <div class="container-fluid">
+                <div class='row'>
+                        <div class='col-md-5 pb-4'>
+                                <img src={%static "images/pics (4).jpeg" %} width="100%" height="220px">
+                            </div>
+                            <div class='col-md-1'></div>
+         <div class="col-md-6 pb-4" style="font-family:century gothic;">
+                         
+                     <ul style="list-style: square;">
+             <li>Area_name</li>
+             <li >Year</li>
+             <li >Group_Name</li>
+            <li>Sub_Group_Name</li>
+            <li>Loss_of_Property_1_10_Crores</li>
+            <li>Loss_of_Property_10_25_Crores</li>
+            <li>Loss_of_Property_25_50_Crores</li>
+            <li>Loss_of_Property_50_100_Crores</li>
+            <li>Loss_of_Property_Above_100_Crores</li>
+            
+             
+         </ul>
+        </div>
+     </div>
+    </div>
+    <div class="container-fluid pt-4">
+        <div class='row'>
+            <div class='col-md-12 '>
+                    
+                <h4 class='text-justify text-center'>PROPERTY STOLEN AND RECOVERED</h4><hr style='width:100px;border-width:2px;'class='bg-warning'>
+                    <p style='font-family:century gothic;box-shadow:0px 0px 10px 0px lightgray;line-height:2;word-spacing:2;'class='pt-4 p-4'>
+                        The dataset comprises of the inforamation about the cases of Property stolen and recovered
+                         reported by people from the year 2001 to 2010 
+                        the data is distributed statewise and gives year wise trend about the Property  cases 
+                        registered.<br/>
+                
+                    <b>TOTAL NO OF ROWS:2430</b><br/>
+                   <b>TOTAL INSTANCES:8</b> </p>
+            </div>
+            </div>
+
+    
+ 
+
+            <h5 class="text-center pb-4 pt-3"><b>The columns are enlisted as under:</b></h5>
+            <div class="container-fluid">
+            <div class='row'>
+                    <div class='col-md-5 pb-5'>
+                            <img src={%static "images/images (4).jpeg" %} width="100%" height="200px">
+                        </div>
+                        <div class='col-md-1'></div>
+     <div class="col-md-6 pb-5" style="font-family:century gothic;">
+                     
+                 <ul style="list-style: square;">
+         <li>Area_name</li>
+         <li >Year</li>
+         <li >Group_Name</li>
+        <li>Sub_Group_Name</li>
+        <li>Cases_Property_Recovered</li>
+        <li>Cases_Property_Stolen</li>
+        <li>Value_of_Property_Recovered</li>
+        <li>Value_of_Property_Stolen</li>
+        
+        
+         
+     </ul>
+    </div>
+ </div>
+</div>
+
+
+</div>   
+</div>
+    </div>
+        
+     </body>
+</html>

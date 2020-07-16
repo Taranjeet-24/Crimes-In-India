@@ -1,0 +1,212 @@
+ {% load static %}
+ <html>
+    <head>
+        <title>page</title>
+        <link href='{%static "css/bootstrap.min.css" %}' rel='stylesheet'>
+        <link href='{%static "css/icofont.css" %}' rel='stylesheet'>
+    </head>
+    <body style='overflow-x:hidden;'>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#" style='font-size:25px;'><b>&nbsp; CRIMES IN INDIA &nbsp;</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item  dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Prediction
+                  <i class="icofont icofont-data text-white icofont-2x"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/model3">KIDNAPPING AND ABDUCTION</a>
+                <a class="dropdown-item" href="/model">FRAUDS</a>
+                <a class="dropdown-item" href="/model2">PROPERTY STOLEN</a>
+                <a class="dropdown-item" href="/model4">CRIME AGAINST CHILDREN</a>
+                <a class="dropdown-item" href="/model5">CRIME AGAINST WOMEN </a>
+                <a class="dropdown-item" href="/model1">RAPE CASES</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Analysis
+                  <i class="icofont icofont-code text-white icofont-2x"></i></a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/log5">KIDNAPPING AND ABDUCTION</a>
+                    <a class="dropdown-item" href="/login1">FRAUDS </a>
+                    <a class="dropdown-item" href="/log6">CRIME AGAINST CHILDREN</a>
+                    <a class="dropdown-item" href="/log4">PROPERTY STOLEN</a>
+                    <a class="dropdown-item" href="/log2"> RAPE CASES</a>
+                    <a class="dropdown-item" href="/log3">CRIME AGAINST WOMEN </a>
+                    </div>
+
+
+              
+            </li>
+            
+            <li class="nav-item dropdown  active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" 
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Visulizations <i class="icofont icofont-bars text-white icofont-2x"></i>
+
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/kidnapping">KIDNAPPING AND ABDUCTION</a>
+                <a class="dropdown-item" href="/vis3">FRAUDS AND PROPERTY STOLEN</a>
+                <a class="dropdown-item" href="/vis1">CRIME AGAINST CHILDREN</a>
+                <a class="dropdown-item" href="/vis2">CRIME AGAINST WOMEN AND RAPE CASES</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/Fv1">Contact us<span class="sr-only">(current)</span>
+                <i class="icofont icofont-phone text-white icofont-2x"></i></a>
+              </li>
+          </ul>
+          
+        </div>
+      </nav>
+                  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src={% static "images/images (2).jpeg" %} class="d-block w-100" alt="..." height="500px">
+                      </div>
+                      
+                      
+                      <div class="carousel-item">
+                        <img src= {% static "images/pics (2).jpeg" %} class="d-block w-100" alt="..." height="500px">
+                      </div>
+                      <div class="carousel-item">
+                          <img src={% static "images/pics (3).jpeg" %} class="d-block w-100" alt="..." height="500px">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <div class="container-fluid pt-4 mt-2 ">
+                    <div class="row">
+                      <div class="container">
+                        <h4 class='text-justify text-center'> CRIMES IN INDIA</h4><hr style='width:100px;border-width:2px;'class='bg-warning'>
+                        <p style='font-family:century gothic;box-shadow:0px 0px 10px 0px lightgray;line-height:2;word-spacing:2;'class='pt-4 p-4'>The factors which hinder the adjustment process also explain the causes and consequences of crime.
+                            Indian society has its own unique character, and the phenomenon of crime needs
+                             be seen in terms of its peculiar nature.To understand juvenile delinquency, one must analyse the socialisation process, peer group influence, and the structure of 
+                             delinquent gangs. The crucial variables in delin­quency are age, sex and status of the family.Aspirations for status elevation have also increased in recent years. A number of people have adopted malpractices
+                          to acquire high status. Economic unevenness among different sections of 
+                          society has been caused partly by the social heritage of the people and partly by the processes of modernisation and change. 
+                          The status hiatus created by these factors has been responsible for creating situations of 
+                          crime and delinquency.White-collar crime has acquired new dimensions. Political 
+                          institu­tions have changed very rapidly and cultural norms have not kept pace with them. 
+                    Hence, there is a <b>‘cultural lag’</b> in today’s India. </p>
+                         
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <h4 class='text-justify text-center pt-4'> DATASETS</h4><hr style='width:100px;border-width:2px;'class='bg-warning'>
+
+                    <div class='row pl-4 pt-2' >
+                        
+                        <div class='col-md-3'>
+                            
+                          <!----<div class='row'>
+                              <div class='col-md-3 bg-danger'>col-1</div>
+                              <div class='col-md-3'>col-2</div>
+
+                              <div class='col-md-3'>col-3</div>
+                              <div class='col-md-3'>col-4</div>
+                          </div>-->
+                  <div class="card bg-warning" style="width: 18rem;">
+                    <img src={% static "images/img1 (4).jpg" %} class="card-img-top" alt=".." height="300px">
+                    <div class="card-body">
+                      <h5 class="card-title text-justify text-center "style='font-family:century gothic;'><b>KIDNAPPING AND ABDUCTION</b></h5>
+                      <p class="card-text"style='font-family:century gothic;'>
+                          The dataset comprises of the 
+                          information about the cases of kidnapping and abduction that happened from the year 2001 to 2010 
+                          the data is distributed statewise and gives year wise trend
+                           about the changes in various aspects about the cases 
+                          registered.</p>
+                      <a href="/temp3" class="btn btn-dark ">ABOUT THE DATASET</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='col-md-3'>
+                    <div class="card bg-warning" style="width: 18rem;">
+                      <img src={% static "images/img1 (1).jpg"    %}   class="card-img-top" alt=".." height="300px">
+                      <div class="card-body">
+                        <h5 class="card-title text-justify text-center" style='font-family:century gothic;'><b>FRAUDS AND PROPERTY STOLEN</b></h5>
+                        <p class="card-text" style='font-family:century gothic;'>The dataset comprises of the inforamation about the 
+                          cases of fraud  and property stolen reported by people from the year 2001 to 2010 
+                            the data is distributed statewise and gives year wise trend about the frauds in Property  cases 
+                            registered.</p>
+                        <a href="/temp2" class="btn btn-dark">ABOUT THE DATASETS</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class='col-md-3'>
+                        <div class="card bg-warning" style="width: 18rem;">
+                          <img src={% static "images/pic (1).jpg" %} class="card-img-top" alt=".." height="300px">
+                          <div class="card-body">
+                            <h5 class="card-title text-justify text-center" style='font-family:century gothic;'>
+                              <b>CRIME AGAINST CHILDREN</b></h5>
+                            <p class="card-text" style='font-family:century gothic;'>The dataset comprises of the 
+                                information about the cases of crime against children that happened from the 
+                                year 2001 to 2012 
+                                the data is distributed statewise and gives year wise trend
+                                 about the changes in various aspects about the cases 
+                                registered.</p>
+                            <a href="/temp4" class="btn btn-dark">ABOUT THE DATASET</a>
+                            </div>
+                          </div>
+                        </div>
+                    
+                  <div class='col-md-3'>
+                  <div class="card bg-warning" style="width: 18rem;">
+                    <img src={%static "images/pic (5).jpg" %} class="card-img-top" alt=" " height="300px">
+                    <div class="card-body">
+                      <h5 class="card-title text-justify text-center"style='font-family:century gothic;'><b>CRIME AGAINST WOMEN AND RAPE CASES</b></h5>
+                      <p class="card-text"style='font-family:century gothic;'>The dataset comprises of the info
+                          about the cases under crime that happened against women from the year 2001 to 2010 
+                             the data is distributed statewise and gives year wise trend about the changes in various aspects about the cases 
+                             registered.</p>
+                      <a href="/temp1" class="btn btn-dark">ABOUT THE DATASETS</a>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                
+                
+
+        <div class="container-fluid bg-dark text-white pt-4 mt-2">
+            <div class="container">
+    <div class='row'>
+        <div class='col-md-6'>
+            <h5>Overview</h5>
+            <p style='font-family:century gothic'>India has witnessed rapid socio-economic changes since independence. Various institutions 
+              have been created and recreated due to structural and cultural changes over the past six decades. 
+                    India resulting in increased Crimes. </p>
+        </div>
+        <div class='col-md-3'>
+            
+        </div>
+        <div class='col-md-3 text-center'>
+            <h5>Dataset available at</h5>
+            <a href='https://www.kaggle.com/rajanand/crime-in-india' style="color:white">
+            <i class='icofont icofont-web  text-white'style='font-size:24px;'></i> &nbsp;<p style='font-family:century gothic'>kaggle.com</p></a>
+            &nbsp;&nbsp;
+            
+        </div>
+    </div>
+</div>
+    </div>
+    <script src={%static "js/jquery-3.3.1.min.js" %}></script>
+          <script src={%static "js/popper.min.js" %}></script>
+          <script src={%static "js/bootstrap.min.js" %}></script>
+
+    </body>
+</html>
